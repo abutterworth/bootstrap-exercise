@@ -34,18 +34,22 @@ class App extends Component {
       <div className="program-detail-page">
         <AppHeader />
 
-        <div className="hero-bg-pattern" style={{ height: '300px' }}/>
-        <div style={{
-          backgroundImage: `url(${universityCampus})`,
-          height: '300px',
-        }}>
+        <div className="hero">
+          <div className="hero-bg">
+            <div className="hero-bg-pattern"/>
+            <div className="hero-bg-campus" style={{backgroundImage: `url(${universityCampus})`,
+            }}/>
+          </div>
 
+          <div>
+            <h1>Master's Degree in Data Science</h1>
+            <p>from The University of California, San Diego</p>
+            <p>Top ranked</p>
+            <img src={universityLogo} />
+          </div>
         </div>
 
-        <h1>Master's Degree in Data Science</h1>
-        <p>from The University of California, San Diego</p>
-        <p>Top ranked</p>
-        <img src={universityLogo} />
+        
 
         <ul>
           <li><a href="#overview">Overview</a></li>
@@ -151,7 +155,7 @@ class App extends Component {
 
 
         <h2 id="get-started">Get Started</h2>
-        <div className="form-bg" style={{height: '300px'}} />
+        <div className="form-bg" />
         <form>
           <h3>Learn More About the Master’s Degree in Data Science</h3>
 

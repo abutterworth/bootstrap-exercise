@@ -1,13 +1,48 @@
 @import '~bootstrap/scss/bootstrap';
 
+$edxYellow: #FFC603;
+
 .program-detail-page {
 
+  .hero {
+    min-height: 400px;
+    position: relative;
+    .hero-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+      display: flex;
+      align-items: stretch;
+      .hero-bg-pattern,
+      .hero-bg-campus {
+        flex-grow: 1;
+        background-size: cover;
+      }
+      .hero-bg-pattern {
+        background-image: url('./assets/hero-bg.jpg');
+        flex-basis: 33%;
+      }
+      .hero-bg-campus {
+        flex-basis: 67%;
+        border-left: solid 1rem $edxYellow;
+        border-right: solid 1rem $edxYellow;
+      }
+    }
+  }
+
   .hero-bg-pattern {
-    background-image: url('./assets/hero-bg.jpg');
   }
 
   .form-bg {
     background-image: url('./assets/form-bg.jpg'); 
+    background-size: cover;
+    height: 400px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
   }
 
 }
