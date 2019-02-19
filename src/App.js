@@ -88,18 +88,29 @@ class App extends Component {
         <p>UCSD’s Master of Data Science will give you the skills required to become a successful data scientist. Through a rigorous curriculum developed by the world’s topmost experts in the field, the program covers both the foundations of data sciences, along with applied methods useful in practice. Students will learn how to collect, prepare, store, analyze, and visualize data, all at large scales. A capstone course will tie all the material together through a large project that leverages unique strengths at UCSD, including the interdisciplinary Halicioglu Data Science Institute, the San Diego Super Computer Center, the Scripps Institution for Oceanography, and world-renowned research groups in health informatics, computer vision, and computer-generated music.</p>
 
 
-
-        #5
-        Best public university
-        U.S. News and World Report
-
-        #9
-        Most graduates hired by silicon valley employers
-        HiringSolved
-
-        #10 Nationally in best global universities
-        U.S. News and World Report
-
+        <ul>
+          <li>
+            <span>#5</span>
+            <p>
+              <span>Best public university</span>
+              <span>U.S. News and World Report</span>
+            </p>
+          </li>
+          <li>
+            <span>#9</span>
+            <p>
+              <span>Most graduates hired by silicon valley employers</span>
+              <span>HiringSolved</span>
+            </p>
+          </li>
+          <li>
+            <span>#10</span>
+            <p>
+              <span>Nationally in best global universities</span>
+              <span>U.S. News and World Report</span>
+            </p>
+          </li>
+        </ul>
 
 
         <h2>Details</h2>
