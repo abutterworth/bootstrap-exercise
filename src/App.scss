@@ -4,6 +4,14 @@ $edxYellow: #FFC603;
 
 .program-detail-page {
 
+  // Our new styles here 
+  //
+  //
+
+
+
+
+
   .hero {
     min-height: 400px;
     position: relative;
@@ -33,9 +41,6 @@ $edxYellow: #FFC603;
     }
   }
 
-  .hero-bg-pattern {
-  }
-
   .form-bg {
     background-image: url('./assets/form-bg.jpg'); 
     background-size: cover;
@@ -44,5 +49,4 @@ $edxYellow: #FFC603;
     width: 100%;
     z-index: -1;
   }
-
 }
