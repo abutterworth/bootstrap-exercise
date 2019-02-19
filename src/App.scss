@@ -1,1 +1,13 @@
 @import '~bootstrap/scss/bootstrap';
+
+.program-detail-page {
+
+  .hero-bg-pattern {
+    background-image: url('./assets/hero-bg.jpg');
+  }
+
+  .form-bg {
+    background-image: url('./assets/form-bg.jpg'); 
+  }
+
+}

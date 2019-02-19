@@ -18,6 +18,7 @@ import './App.scss';
 // Asset Imports
 import edxLogo from './assets/edx-logo.png';
 import universityLogo from './assets/ucsdx-logo.png';
+import universityCampus from './assets/hero-bg-campus.jpg';
 import {
   faDollarSign,
   faBook,
@@ -30,11 +31,16 @@ import {
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="p-3 shadow">
-          <img className="d-block m-auto" src={edxLogo} />
-        </div>
+      <div className="program-detail-page">
+        <AppHeader />
 
+        <div className="hero-bg-pattern" style={{ height: '300px' }}/>
+        <div style={{
+          backgroundImage: `url(${universityCampus})`,
+          height: '300px',
+        }}>
+
+        </div>
 
         <h1>Master's Degree in Data Science</h1>
         <p>from The University of California, San Diego</p>
@@ -145,6 +151,7 @@ class App extends Component {
 
 
         <h2 id="get-started">Get Started</h2>
+        <div className="form-bg" style={{height: '300px'}} />
         <form>
           <h3>Learn More About the Master’s Degree in Data Science</h3>
 
@@ -234,3 +241,17 @@ class App extends Component {
 }
 
 export default App;
+
+
+function AppHeader() {
+  return (
+    <div 
+      className="position-relative p-3 shadow"
+      style={{
+        zIndex: 2000
+      }}
+    >
+      <img className="d-block m-auto" src={edxLogo} />
+    </div>
+  );
+}
