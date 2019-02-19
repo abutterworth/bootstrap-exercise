@@ -51,13 +51,13 @@ class App extends Component {
 
         
 
-        <ul>
-          <li><a href="#overview">Overview</a></li>
-          <li><a href="#details">Details</a></li>
-          <li><a href="#curriculum">Curriculum</a></li>
-          <li><a href="#get-started">Get Started</a></li>
-          <li><a href="#faq">FAQs</a></li>
-        </ul>
+        <nav>
+          <a href="#overview">Overview</a>
+          <a href="#details">Details</a>
+          <a href="#curriculum">Curriculum</a>
+          <a href="#get-started">Get Started</a>
+          <a href="#faq">FAQs</a>
+        </nav>
 
         <a href="#get-started">Tell Me More</a>
 
