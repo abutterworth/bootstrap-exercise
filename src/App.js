@@ -62,19 +62,24 @@ class App extends Component {
         <a href="#get-started">Tell Me More</a>
 
 
-        <div>
-          <FontAwesomeIcon icon={faDollarSign} />
-          <span>$15,000</span>
-
-          <FontAwesomeIcon icon={faBook} />
-          <span>10 courses</span>
-
-          <FontAwesomeIcon icon={faDesktop} />
-          <span>Fully online</span>
-
-          <FontAwesomeIcon icon={faClock} />
-          <span>1-3 years</span>
-        </div>
+        <ul>
+          <li>
+            <FontAwesomeIcon icon={faDollarSign} />
+            <span>$15,000</span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faBook} />
+            <span>10 courses</span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faDesktop} />
+            <span>Fully online</span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faClock} />
+            <span>1-3 years</span>
+          </li>
+        </ul>
 
 
 
